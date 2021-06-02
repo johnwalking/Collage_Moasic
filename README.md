@@ -3,3 +3,5 @@
 2. choose the tile size you want
 3. change the filename you save the result
 4. have fun 
+
+https://watson-john.medium.com/collage-mosaic-generator-實作-4c85cc8f486b
