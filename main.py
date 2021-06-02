@@ -117,6 +117,7 @@ def Generate_Mosaic(target, tiles):
     #存檔
     New_Balnk_Image.save('./here.jpg')
     
-big = TargetProcess(Target_Path).getTarget()
-tiles = TileProcess(Tile_Path).get_tiles()
-Generate_Mosaic(big,tiles)
+if __name__ == '__main__': 
+    big = TargetProcess(Target_Path).getTarget()
+    tiles = TileProcess(Tile_Path).get_tiles()
+    Generate_Mosaic(big,tiles)
